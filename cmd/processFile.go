@@ -38,6 +38,8 @@ func configureDeviceConfigurations(c *cli.Context) error {
 	if err != nil {
 		return err
 	}
-	fmt.Println("The ouput path is: ", outputFilePath)
+
+	outputAbsPath, _ := filepath.Abs(outputFilePath)
+	fmt.Println("The ouput path is: ", outputAbsPath)
 	return nil
 }
