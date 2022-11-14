@@ -1,7 +1,8 @@
 1- Download the project in your local
 
-2- Run 
-    
+2- Run
+ 
+    go get bunsan_lectorOcr
     go mod vendor
 
 3- The way to test this project is using a command in the consoele like this 
